@@ -62,6 +62,7 @@ fi
 if [[ ! -v "_docs" ]]; then
   _docs="true"
 fi
+_py="python"
 _pkg=gpg-key-info
 pkgbase="${_pkg}"
 pkgname=(
