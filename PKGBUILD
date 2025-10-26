@@ -143,7 +143,10 @@ if [[ "${_offline}" == "true" ]]; then
 fi
 _sum="0a792d02053ea2ab39b1b2ab483907648df277d276cd02fbefef37abcd96d727"
 _sig_sum="afbfb75ab53e40082bcd226a3d186a6922b5d31a5c0f2560b9402651aef4d8a1"
+# Dvorak
 _evmfs_ns="0x87003Bd6C074C713783df04f36517451fF34CBEf"
+# Truocolo
+_evmfs_ns="0x6E5163fC4BFc1511Dbe06bB605cc14a3e462332b"
 _evmfs_network="100"
 _evmfs_address="0x69470b18f8b8b5f92b48f6199dcb147b4be96571"
 _evmfs_dir="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}"
