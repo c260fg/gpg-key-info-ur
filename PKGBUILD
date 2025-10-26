@@ -79,7 +79,7 @@ if [[ "${_docs}" == "true" ]]; then
   )
 fi
 pkgver="0.0.0.0.0.0.0.0.0.0.0.1.1.1"
-_commit="627788b5ac3245fc95280dc5b8bade577604283d"
+_commit="e46d8f37428655780e4c510ee0a8073c7914308d"
 pkgrel=1
 _pkgdesc=(
   "Extracts information from"
@@ -142,8 +142,8 @@ _tarfile="${_tarname}.${_archive_format}"
 if [[ "${_offline}" == "true" ]]; then
   _url="file://${HOME}/${_pkg}"
 fi
-_sum="0a792d02053ea2ab39b1b2ab483907648df277d276cd02fbefef37abcd96d727"
-_sig_sum="afbfb75ab53e40082bcd226a3d186a6922b5d31a5c0f2560b9402651aef4d8a1"
+_sum="6bc2ddea098c944326af6354fcd5725407c031d8f40b5a5264894d478c67e1f2"
+_sig_sum="9c5a1a84c4c57acd75a96ad6475f675bb34ea7bcd414474ce2d277c45af3bd20"
 # Dvorak
 _evmfs_ns="0x87003Bd6C074C713783df04f36517451fF34CBEf"
 # Truocolo
