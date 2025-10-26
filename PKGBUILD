@@ -123,7 +123,7 @@ fi
 makedepends=(
   'make'
 )
-if [[ "${_contracts}" == "true" ]]; then
+if [[ "${_docs}" == "true" ]]; then
   makedepends+=(
     "${_py}-docutils"
   )
@@ -163,7 +163,7 @@ if [[ "${_evmfs}" == "true" ]]; then
     "${_sig_sum}"
   )
 elif [[ "${_evmfs}" == "false" ]]; then
-  if [[ "${_git}" == true ]]; then
+  if [[ "${_git}" == "true" ]]; then
     makedepends+=(
       "git"
     )
