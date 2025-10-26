@@ -230,7 +230,7 @@ package_gpg-key-info() {
     install-scripts
   install \
     -vDm644 \
-    "${srcdir}/COPYING" \
+    "COPYING" \
     -t \
     "${pkgdir}/usr/share/licenses/${pkgname}/"
 }
@@ -254,7 +254,7 @@ package_gpg-key-info-docs() {
     install-man
   install \
     -vDm644 \
-    "${srcdir}/COPYING" \
+    "COPYING" \
     -t \
     "${pkgdir}/usr/share/licenses/${pkgname}/"
 }
