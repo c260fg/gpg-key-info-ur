@@ -68,11 +68,6 @@ pkgbase="${_pkg}"
 pkgname=(
   "${_pkg}"
 )
-if [[ "${_contracts}" == "true" ]]; then
-  pkgname+=(
-    "${_pkg}-contracts"
-  )
-fi
 if [[ "${_docs}" == "true" ]]; then
   pkgname+=(
     "${_pkg}-docs"
