@@ -80,7 +80,7 @@ if [[ "${_docs}" == "true" ]]; then
 fi
 pkgver="0.0.0.0.0.0.0.0.0.0.0.1.1.1"
 _commit="e46d8f37428655780e4c510ee0a8073c7914308d"
-pkgrel=1
+pkgrel=2
 _pkgdesc=(
   "Extracts information from"
   "a GNU Privacy Guard key file."
